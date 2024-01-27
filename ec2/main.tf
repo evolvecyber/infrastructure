@@ -20,6 +20,5 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "HelloWorld"
-    managed_by = "terraform"
   }
 }
